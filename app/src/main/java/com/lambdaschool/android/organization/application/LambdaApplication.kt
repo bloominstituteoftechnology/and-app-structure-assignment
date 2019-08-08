@@ -1,9 +1,14 @@
-package com.lambdaschool.android.organization
+package com.lambdaschool.android.organization.application.application.application
 
 import android.app.Application
+import com.lambdaschool.android.organization.application.application.model.Model
+import org.intellij.lang.annotations.JdkConstants
 
 class LambdaApplication : Application() {
     // todo: Maybe define a model in this class?
+    val appOrder = Model(productName = " ")
+
+
 
     override fun onCreate() {
         super.onCreate()

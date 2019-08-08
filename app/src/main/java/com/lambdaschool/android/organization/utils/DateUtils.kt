@@ -1,4 +1,4 @@
-package com.lambdaschool.android.organization
+package com.lambdaschool.android.organization.utils
 
 import java.text.SimpleDateFormat
 import java.util.*
@@ -11,5 +11,8 @@ class DateUtils {
         }
 
         // TODO: Other date formatting util methods here...
+        fun returnTodaysDate():String{
+            return formatDate(Date())
+        }
     }
 }

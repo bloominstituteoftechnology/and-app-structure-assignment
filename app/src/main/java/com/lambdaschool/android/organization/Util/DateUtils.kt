@@ -1,4 +1,4 @@
-package com.lambdaschool.android.organization
+package com.lambdaschool.android.organization.Util
 
 import java.text.SimpleDateFormat
 import java.util.*
@@ -6,7 +6,7 @@ import java.util.*
 class DateUtils {
     companion object {
         fun formatDate(date: Date) : String {
-            val format = SimpleDateFormat("dd/MM/yyy")
+            val format = SimpleDateFormat("dd/MM/yyyy")
             return format.format(date)
         }
 
